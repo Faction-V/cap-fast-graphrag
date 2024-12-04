@@ -1,6 +1,7 @@
-name: Publish fast-graphrag to AWS ECR.
+name: Publish fast-graphrag image to AWS ECR.
 on:
-  push:
+  workflow_dispatch:
+    
 
 jobs:
   build-and-push:
